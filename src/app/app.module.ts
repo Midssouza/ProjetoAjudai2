@@ -9,7 +9,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { SobreNosComponent } from './components/sobre-nos/sobre-nos.component';
 import { LoginComponent } from './components/login/login.component';
-import { CadastroComponent } from './components/cadastro/cadastro.component';
+
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 
@@ -20,7 +20,7 @@ import { FooterComponent } from './components/footer/footer.component';
     HomeComponent,
     SobreNosComponent,
     LoginComponent,
-    CadastroComponent,
+   
     NavbarComponent,
     FooterComponent,
     

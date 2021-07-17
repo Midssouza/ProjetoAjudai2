@@ -1,13 +1,17 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { CadastroComponent } from './components/cadastro/cadastro.component';
+
 import { LoginComponent } from './components/login/login.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { SobreNosComponent } from './components/sobre-nos/sobre-nos.component';
 
 
 const routes: Routes = [
   {path:'',redirectTo:'login',pathMatch:'full'},
   {path:'login',component:LoginComponent},
-  {path:'cadastro',component:CadastroComponent}
+  {path:'sobrenos',component: SobreNosComponent},
+  {path:'navbar',component: NavbarComponent}
+  
   
 ];
 
